@@ -29,9 +29,11 @@ class RouletteGun extends React.Component {
   }
 
   handleButtonClick = () => {
-    this.setState({spinningTheChamber: true})
-    this.setState({chamber: Math.ceil(Math.random() * 8)})
-    let timeout = setTimeout(() => {
+    this.setState({
+      spinningTheChamber: true,
+      chamber: Math.ceil(Math.random() * 8)
+    })
+    this.timeout = setTimeout(() => {
       this.setState({
         spinningTheChamber: false
       });
