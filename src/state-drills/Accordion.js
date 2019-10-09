@@ -6,7 +6,8 @@ class Accordion extends React.Component {
     sections: []
   }
   state = {
-    currentOpenTab: ''
+    currentOpenTab: null,
+    //open: false
   }  
 
   handleButtonClick(index) {
@@ -15,7 +16,7 @@ class Accordion extends React.Component {
 
   renderLi = () => {
     return this.props.sections.map( (element, index) => (
-      <li key={index}>
+      <li key={index} className="Accordion-item">
         <button onClick={() => this.handleButtonClick(index)}>
           {element.title}
         </button>
@@ -27,6 +28,7 @@ class Accordion extends React.Component {
 
   renderContent = () => {
     const currentTab = this.props.sections[this.state.currentOpenTab]
+    //this.setState({open: true})
     return (
       <p className='content'>
         {currentTab.content}

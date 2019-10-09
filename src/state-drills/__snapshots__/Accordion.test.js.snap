@@ -3,6 +3,7 @@
 exports[`Accordion Component opens any clicked section and closes all others 1`] = `
 <ul>
   <li
+    className="Accordion-item"
     key="0"
   >
     <button
@@ -12,6 +13,7 @@ exports[`Accordion Component opens any clicked section and closes all others 1`]
     </button>
   </li>
   <li
+    className="Accordion-item"
     key="1"
   >
     <button
@@ -26,6 +28,7 @@ exports[`Accordion Component opens any clicked section and closes all others 1`]
     </p>
   </li>
   <li
+    className="Accordion-item"
     key="2"
   >
     <button
@@ -40,6 +43,7 @@ exports[`Accordion Component opens any clicked section and closes all others 1`]
 exports[`Accordion Component opens any clicked section and closes all others, double 1`] = `
 <ul>
   <li
+    className="Accordion-item"
     key="0"
   >
     <button
@@ -49,6 +53,7 @@ exports[`Accordion Component opens any clicked section and closes all others, do
     </button>
   </li>
   <li
+    className="Accordion-item"
     key="1"
   >
     <button
@@ -58,6 +63,7 @@ exports[`Accordion Component opens any clicked section and closes all others, do
     </button>
   </li>
   <li
+    className="Accordion-item"
     key="2"
   >
     <button
@@ -77,6 +83,7 @@ exports[`Accordion Component opens any clicked section and closes all others, do
 exports[`Accordion Component renders buttons only given sections 1`] = `
 <ul>
   <li
+    className="Accordion-item"
     key="0"
   >
     <button
@@ -86,6 +93,7 @@ exports[`Accordion Component renders buttons only given sections 1`] = `
     </button>
   </li>
   <li
+    className="Accordion-item"
     key="1"
   >
     <button
@@ -95,6 +103,7 @@ exports[`Accordion Component renders buttons only given sections 1`] = `
     </button>
   </li>
   <li
+    className="Accordion-item"
     key="2"
   >
     <button
